@@ -41,7 +41,6 @@ unsigned int calculate_mac(const char *message, const char *key) {
     }
     return mac;
 }
-
 int main() {
     char message[256];
     unsigned int mac_sent, mac_received;
